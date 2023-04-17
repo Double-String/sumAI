@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 16px;
+    width: 300px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  #summarizeBtn {
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    text-align: center;
+    transition: background-color 0.2s;
+  }
+  
+  #summarizeBtn:hover {
+    background-color: #185abc;
+  }
+  
+  #summarizeBtn:disabled {
+    background-color: #9aa0a6;
+    cursor: not-allowed;
+  }
+  
+  #summaryResult {
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    font-size: 14px;
+    min-height: 100px;
+    padding: 8px;
+    white-space: pre-wrap;
+  }
+  
